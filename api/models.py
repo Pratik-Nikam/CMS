@@ -26,7 +26,8 @@ class Content(models.Model):
         primary_key=True,
         help_text="Auto incremental unique interger values.",
     )
-    owner = models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE)
+    owner = models.ForeignKey('auth.User',on_delete=models.CASCADE,related_name="creted_by_user")
+    #owner = models.ForeignKey(settings.AUTH_USER_MODEL,on_delete=models.CASCADE)
     title = models.CharField(
         db_column="title",
         max_length=30,
