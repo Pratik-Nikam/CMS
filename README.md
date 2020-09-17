@@ -53,10 +53,12 @@ Following are the apps created under this project.
 
 ### Instruction
 ---
-Create Superuser
-Add Groups 'Admin Group' and 'Author Group'
-Assign User to this groups from Django Admin
-Then can add data from post request and test other functionalities with urls
+* Create Superuser
+* Add Groups 'Admin Group' and 'Author Group'
+* Assign User to this groups from Django Admin
+* Create Profile
+* Generate Token
+* Then can add data from postman request (make sure to have token in request) and test other functionalities with urls
 
 ### Data Source
 ---
