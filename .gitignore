@@ -1,0 +1,21 @@
+# Mac
+.DS_Store
+
+# Vscode #
+/.vscode
+
+# Django #Byte-Compiled
+*.pyc
+__pycache__
+
+
+
+# django migrations and others#
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
+/static
+*.zip
+*.sqlite3
+
+/documents
